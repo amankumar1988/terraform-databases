@@ -31,6 +31,6 @@ module "mysql" {
 #     value = module.redis
 # }
 
-output "data"{
-  value = module.docdb.data
-}
+# output "data"{
+#   value = module.docdb.data
+# }
